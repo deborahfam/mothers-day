@@ -37,7 +37,17 @@ if (track) {
   track.addEventListener('mouseleave', () => { track.style.animationPlayState = 'running'; });
 }
 
-// Guestbook — localStorage (ready for Supabase integration)
+// Guestbook
+// Aqui van los mensajes que te van mandando las personas.
+// Solo agrega un objeto nuevo al array siguiendo el mismo formato.
+const STATIC_MESSAGES = [
+  {
+    text: 'Dicen que detrás de una gran persona, hay una gran madre... y detrás de esa madre, ¡una abuela que sabe perfectamente que la madre está exagerando! Gracias por ser mi equipo favorito, por los consejos (aunque a veces no los siga a la primera) y por quererme incluso cuando me pongo insoportable. ¡Feliz día!',
+    name: 'Deby',
+    date: 'Mayo 2026'
+  },
+];
+
 const STORAGE_KEY = 'mothers-day-messages';
 const accentColors = [
   { bg: 'msg-purple', color: 'var(--accent-primary)' },
@@ -48,9 +58,10 @@ const accentColors = [
 
 function loadMessages() {
   const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+  const all = [...STATIC_MESSAGES, ...saved];
   const grid = document.getElementById('messagesGrid');
   const writeCard = document.getElementById('writeCard');
-  saved.forEach(msg => {
+  all.forEach(msg => {
     const card = createMessageCard(msg);
     grid.insertBefore(card, writeCard);
   });
