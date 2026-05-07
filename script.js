@@ -46,6 +46,11 @@ const STATIC_MESSAGES = [
     name: 'Deby',
     date: 'Mayo 2026'
   },
+  {
+    text: 'Mima, Aya, quiero darles mis más sinceras felicidades llenas de amor por este día tan especial. El día de las madres es uno de los momentos del año en los cuales más felices estoy, ya que puedo mostrar mi amor por aquella que me dio vida, y me cuidó hasta este momento. Estaré esperando el próximo para mostrar incluso más amor. Gracias, mamá. Gracias, abuela.',
+    name: 'Faby',
+    date: 'Mayo 2026'
+  }
 ];
 
 const accentColors = [
