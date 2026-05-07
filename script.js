@@ -48,7 +48,6 @@ const STATIC_MESSAGES = [
   },
 ];
 
-const STORAGE_KEY = 'mothers-day-messages';
 const accentColors = [
   { bg: 'msg-purple', color: 'var(--accent-primary)' },
   { bg: 'msg-cyan', color: 'var(--accent-tertiary)' },
@@ -57,13 +56,9 @@ const accentColors = [
 ];
 
 function loadMessages() {
-  const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-  const all = [...STATIC_MESSAGES, ...saved];
   const grid = document.getElementById('messagesGrid');
-  const writeCard = document.getElementById('writeCard');
-  all.forEach(msg => {
-    const card = createMessageCard(msg);
-    grid.insertBefore(card, writeCard);
+  STATIC_MESSAGES.forEach(msg => {
+    grid.appendChild(createMessageCard(msg));
   });
 }
 
@@ -89,35 +84,6 @@ function createMessageCard(msg) {
   return card;
 }
 
-function sendMessage() {
-  const msgInput = document.getElementById('msgInput');
-  const nameInput = document.getElementById('nameInput');
-  const text = msgInput.value.trim();
-  const name = nameInput.value.trim() || 'Anonimo';
-
-  if (!text) {
-    msgInput.style.borderColor = 'var(--accent-secondary)';
-    setTimeout(() => { msgInput.style.borderColor = ''; }, 1500);
-    return;
-  }
-
-  const now = new Date();
-  const months = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-  const msg = { text, name, date: `${months[now.getMonth()]} ${now.getFullYear()}` };
-
-  const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-  saved.push(msg);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
-
-  const grid = document.getElementById('messagesGrid');
-  const writeCard = document.getElementById('writeCard');
-  const card = createMessageCard(msg);
-  grid.insertBefore(card, writeCard);
-
-  msgInput.value = '';
-  nameInput.value = '';
-}
-
 function escapeHtml(str) {
   const div = document.createElement('div');
   div.textContent = str;
@@ -126,10 +92,8 @@ function escapeHtml(str) {
 
 // Parallax on neon streaks
 window.addEventListener('scroll', () => {
-  const scrollY = window.scrollY;
   document.querySelectorAll('.neon-streak').forEach((streak, i) => {
     const speed = 0.02 + (i % 4) * 0.01;
-    streak.style.transform += '';
     const section = streak.closest('section') || streak.closest('footer');
     if (section) {
       const rect = section.getBoundingClientRect();
