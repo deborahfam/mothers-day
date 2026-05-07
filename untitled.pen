@@ -1,0 +1,3947 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "VjNdH",
+      "x": 0,
+      "y": 0,
+      "name": "Para Lesly y Maria Caridad",
+      "clip": true,
+      "width": 1440,
+      "fill": "$surface-bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "wUCpB",
+          "name": "Hero - Bienvenida",
+          "width": "fill_container",
+          "height": 900,
+          "fill": [
+            "$surface-bg",
+            {
+              "type": "gradient",
+              "gradientType": "radial",
+              "enabled": true,
+              "rotation": 0,
+              "size": {
+                "width": 0.8,
+                "height": 0.8
+              },
+              "colors": [
+                {
+                  "color": "#EC489925",
+                  "position": 0
+                },
+                {
+                  "color": "#0A0A0F00",
+                  "position": 1
+                }
+              ],
+              "center": {
+                "y": 0.4
+              }
+            },
+            {
+              "type": "gradient",
+              "gradientType": "radial",
+              "enabled": true,
+              "rotation": 0,
+              "size": {
+                "width": 0.6,
+                "height": 0.6
+              },
+              "colors": [
+                {
+                  "color": "#A855F720",
+                  "position": 0
+                },
+                {
+                  "color": "#0A0A0F00",
+                  "position": 1
+                }
+              ],
+              "center": {
+                "x": 0.45
+              }
+            }
+          ],
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "gUZUJ",
+              "x": 50,
+              "y": 170,
+              "name": "ns1",
+              "opacity": 0.5,
+              "rotation": 8,
+              "fill": "#A855F7",
+              "width": 900,
+              "height": 4,
+              "effect": {
+                "type": "blur",
+                "radius": 40
+              }
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "l8QtHK",
+              "x": 400,
+              "y": 340,
+              "name": "ns2",
+              "opacity": 0.55,
+              "rotation": -5,
+              "fill": "#EC4899",
+              "width": 800,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 35
+              }
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "jiw6n",
+              "x": 100,
+              "y": 630,
+              "name": "ns3",
+              "opacity": 0.3,
+              "rotation": 6.000000000000001,
+              "fill": "#06B6D4",
+              "width": 1100,
+              "height": 5,
+              "effect": {
+                "type": "blur",
+                "radius": 45
+              }
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "Lg41n",
+              "x": 300,
+              "y": 780,
+              "name": "ns4",
+              "opacity": 0.4,
+              "rotation": -8,
+              "fill": "#F472B6",
+              "width": 700,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 38
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "XLuPU",
+              "x": 80,
+              "y": 80,
+              "name": "fc1",
+              "opacity": 0.07,
+              "fill": "#A855F7",
+              "width": 200,
+              "height": 200,
+              "effect": {
+                "type": "blur",
+                "radius": 30
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "qmVDf",
+              "x": 1150,
+              "y": 160,
+              "name": "fc2",
+              "opacity": 0.09,
+              "fill": "#EC4899",
+              "width": 160,
+              "height": 160,
+              "effect": {
+                "type": "blur",
+                "radius": 25
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "fG2mm",
+              "x": 160,
+              "y": 650,
+              "name": "fc3",
+              "opacity": 0.06,
+              "fill": "#06B6D4",
+              "width": 130,
+              "height": 130,
+              "effect": {
+                "type": "blur",
+                "radius": 22
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "Ritk7",
+              "x": 1200,
+              "y": 560,
+              "name": "fc4",
+              "opacity": 0.05,
+              "fill": "#F472B6",
+              "width": 200,
+              "height": 200,
+              "effect": {
+                "type": "blur",
+                "radius": 35
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "w1uSRj",
+              "x": 670,
+              "y": 30,
+              "name": "fc5",
+              "opacity": 0.07,
+              "fill": "#FBBF24",
+              "width": 100,
+              "height": 100,
+              "effect": {
+                "type": "blur",
+                "radius": 20
+              }
+            },
+            {
+              "type": "frame",
+              "id": "odzOx",
+              "x": 0,
+              "y": 0,
+              "name": "heroContent",
+              "width": 1440,
+              "height": 900,
+              "layout": "vertical",
+              "gap": 32,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NQcEq",
+                  "name": "topLabel",
+                  "fill": "$accent-warm",
+                  "content": "FELIZ DIA DE LAS MADRES 2026",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "Iv0eI",
+                  "name": "headlineRow",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "RVBM2",
+                      "name": "leftHeart",
+                      "width": 40,
+                      "height": 40,
+                      "iconFontName": "heart",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-secondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eMaz8",
+                      "name": "heroTitle",
+                      "fill": "$fg-primary",
+                      "textGrowth": "fixed-width",
+                      "width": 780,
+                      "content": "Para las dos mujeres que iluminan mi vida",
+                      "textAlign": "center",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 60,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "jj9VT",
+                      "name": "rightHeart",
+                      "width": 40,
+                      "height": 40,
+                      "iconFontName": "heart",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-secondary"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "w4qnF3",
+                  "name": "heroSub",
+                  "fill": "$fg-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 680,
+                  "content": "Lesly y Maria Caridad, este rincon del mundo es solo para ustedes",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 1,
+                  "id": "BUQou",
+                  "name": "accentBar",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 270,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#EC4899",
+                        "position": 0
+                      },
+                      {
+                        "color": "#A855F7",
+                        "position": 0.5
+                      },
+                      {
+                        "color": "#06B6D4",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "width": 120,
+                  "height": 2
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "c1vvO",
+              "x": 340,
+              "y": 310,
+              "name": "sp1",
+              "opacity": 0.4,
+              "width": 24,
+              "height": 24,
+              "iconFontName": "sparkles",
+              "iconFontFamily": "lucide",
+              "fill": "$accent-gold"
+            },
+            {
+              "type": "icon_font",
+              "id": "lN8nz",
+              "x": 1060,
+              "y": 410,
+              "name": "sp2",
+              "opacity": 0.35,
+              "width": 20,
+              "height": 20,
+              "iconFontName": "sparkles",
+              "iconFontFamily": "lucide",
+              "fill": "$accent-tertiary"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k2BXiT",
+          "name": "Tributo a Lesly",
+          "width": "fill_container",
+          "height": 700,
+          "fill": "$surface-bg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "gVzwX",
+              "x": 60,
+              "y": 100,
+              "name": "ns5",
+              "opacity": 0.3,
+              "rotation": 5,
+              "fill": "#EC4899",
+              "width": 650,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 35
+              }
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "Z7zTrd",
+              "x": 680,
+              "y": 530,
+              "name": "ns6",
+              "opacity": 0.25,
+              "rotation": -7,
+              "fill": "#A855F7",
+              "width": 550,
+              "height": 4,
+              "effect": {
+                "type": "blur",
+                "radius": 40
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "xqtJx",
+              "x": 1280,
+              "y": 80,
+              "name": "fc6",
+              "opacity": 0.06,
+              "fill": "#F472B6",
+              "width": 120,
+              "height": 120,
+              "effect": {
+                "type": "blur",
+                "radius": 22
+              }
+            },
+            {
+              "type": "frame",
+              "id": "KD0gH",
+              "x": 120,
+              "y": 90,
+              "name": "imgMom",
+              "clip": true,
+              "width": 480,
+              "height": 520,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1778160626055.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 12,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#EC489940",
+                "blur": 40,
+                "spread": 10
+              }
+            },
+            {
+              "type": "frame",
+              "id": "e4sc2",
+              "x": 680,
+              "y": 140,
+              "name": "textMom",
+              "width": 600,
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lLNP2",
+                  "name": "lblMom",
+                  "fill": "$accent-warm",
+                  "content": "MI MAMA",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "ZhSkh",
+                  "name": "namMom",
+                  "fill": "$fg-primary",
+                  "content": "Lesly",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 48,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "O4K7V",
+                  "name": "qfMom",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ifiVD",
+                      "name": "qmMom",
+                      "opacity": 0.5,
+                      "fill": "$accent-warm",
+                      "content": "“",
+                      "lineHeight": 0.7,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 72,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q0xDFC",
+                      "name": "prMom",
+                      "fill": "$fg-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Gracias por cada abrazo que sano mis heridas, por cada noche en vela cuidandome, y por ensennarme que el amor verdadero no tiene condiciones. Eres mi luz, mi fuerza y mi ejemplo.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "SA81Z",
+              "x": 690,
+              "y": 580,
+              "name": "flMom",
+              "opacity": 0.5,
+              "width": 28,
+              "height": 28,
+              "iconFontName": "flower-2",
+              "iconFontFamily": "lucide",
+              "fill": "$accent-warm"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OkVRH",
+          "name": "Tributo a Maria Caridad",
+          "width": "fill_container",
+          "height": 700,
+          "fill": "$surface-bg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "DcQqj",
+              "x": 500,
+              "y": 130,
+              "name": "ns7",
+              "opacity": 0.3,
+              "rotation": -6.000000000000001,
+              "fill": "#FBBF24",
+              "width": 700,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 35
+              }
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "KyxeY",
+              "x": 100,
+              "y": 540,
+              "name": "ns8",
+              "opacity": 0.25,
+              "rotation": 8,
+              "fill": "#06B6D4",
+              "width": 600,
+              "height": 4,
+              "effect": {
+                "type": "blur",
+                "radius": 40
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "k0l80z",
+              "x": 30,
+              "y": 70,
+              "name": "fc7",
+              "opacity": 0.06,
+              "fill": "#FBBF24",
+              "width": 130,
+              "height": 130,
+              "effect": {
+                "type": "blur",
+                "radius": 22
+              }
+            },
+            {
+              "type": "frame",
+              "id": "U1ykS",
+              "x": 160,
+              "y": 140,
+              "name": "textGma",
+              "width": 600,
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L9nKAJ",
+                  "name": "lblGma",
+                  "fill": "$accent-gold",
+                  "content": "MI ABUELA",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "Izfzw",
+                  "name": "namGma",
+                  "fill": "$fg-primary",
+                  "content": "Maria Caridad",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 48,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "P3vJu",
+                  "name": "qfGma",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IcF1v",
+                      "name": "qmGma",
+                      "opacity": 0.5,
+                      "fill": "$accent-gold",
+                      "content": "“",
+                      "lineHeight": 0.7,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 72,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "h4Hn9",
+                      "name": "prGma",
+                      "fill": "$fg-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tus manos tienen la magia de convertir cualquier dia gris en un dia de sol. Tu sabiduria, tu risa y tu amor infinito son el tesoro mas grande que la vida me ha dado. Gracias por ser mi refugio.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "l57iQ",
+              "x": 840,
+              "y": 90,
+              "name": "imgGma",
+              "clip": true,
+              "width": 480,
+              "height": 520,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1778160719744.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 12,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#FBBF2440",
+                "blur": 40,
+                "spread": 10
+              }
+            },
+            {
+              "type": "icon_font",
+              "id": "yFSYv",
+              "x": 730,
+              "y": 580,
+              "name": "skGma",
+              "opacity": 0.45,
+              "width": 28,
+              "height": 28,
+              "iconFontName": "sparkles",
+              "iconFontFamily": "lucide",
+              "fill": "$accent-gold"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "USfI9",
+          "name": "Lo Que Las Hace Especiales",
+          "width": "fill_container",
+          "height": 880,
+          "fill": "$surface-bg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "h0bLyV",
+              "x": 320,
+              "y": 80,
+              "name": "qBgGlow",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#A855F710",
+                    "position": 0
+                  },
+                  {
+                    "color": "#EC489908",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#0A0A0F00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 800,
+              "height": 500
+            },
+            {
+              "type": "rectangle",
+              "id": "z5Pvya",
+              "x": 200,
+              "y": 100,
+              "name": "qStreak1",
+              "opacity": 0.35,
+              "rotation": 6.000000000000001,
+              "fill": "$accent-primary",
+              "width": 900,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 35
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "dr3RS",
+              "x": 50,
+              "y": 520,
+              "name": "qStreak2",
+              "opacity": 0.3,
+              "rotation": -8,
+              "fill": "$accent-warm",
+              "width": 700,
+              "height": 4,
+              "effect": {
+                "type": "blur",
+                "radius": 40
+              }
+            },
+            {
+              "type": "frame",
+              "id": "bnOnv",
+              "x": 120,
+              "y": 70,
+              "name": "qContent",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 48,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JrbTz",
+                  "name": "qLabel",
+                  "fill": "$accent-warm",
+                  "content": "LO QUE LAS HACE UNICAS",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "mQEyM",
+                  "name": "qTitle",
+                  "fill": "$fg-primary",
+                  "content": "Pequenos detalles, amor infinito",
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 40,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "bCsfu",
+                  "name": "qSub",
+                  "fill": "$fg-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Cada una brilla con su propia luz, y juntas iluminan todo mi mundo",
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "nv7Fd",
+                  "name": "qCards",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bDBzq",
+                      "name": "topRow",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "iyBsI",
+                          "name": "c1",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "peKEd",
+                              "name": "c1emoji",
+                              "fill": "$fg-primary",
+                              "content": "💐",
+                              "fontFamily": "Inter",
+                              "fontSize": 32,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "uIEcJ",
+                              "name": "c1title",
+                              "fill": "$fg-primary",
+                              "content": "Su ternura",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ZRyUW",
+                              "name": "c1desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Lesly tiene esa forma unica de hacerte sentir que todo estara bien con solo una mirada.",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "SYmxb",
+                              "name": "c1tag",
+                              "fill": "$accent-warm",
+                              "content": "Lesly",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Lrpo6",
+                          "name": "c2",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "hSmMc",
+                              "name": "c2emoji",
+                              "fill": "$fg-primary",
+                              "content": "🌟",
+                              "fontFamily": "Inter",
+                              "fontSize": 32,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "V865Yd",
+                              "name": "c2title",
+                              "fill": "$fg-primary",
+                              "content": "Su sabiduria",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "MAC0p",
+                              "name": "c2desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Maria Caridad siempre tiene las palabras exactas que necesitas escuchar en el momento justo.",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "YSp6S",
+                              "name": "c2tag",
+                              "fill": "$accent-gold",
+                              "content": "Maria Caridad",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I88tWW",
+                          "name": "c3",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "E8lfFa",
+                              "name": "c3emoji",
+                              "fill": "$fg-primary",
+                              "content": "🫶",
+                              "fontFamily": "Inter",
+                              "fontSize": 32,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Kz9vw",
+                              "name": "c3title",
+                              "fill": "$fg-primary",
+                              "content": "Su fortaleza",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "f4d8iI",
+                              "name": "c3desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Juntas me ensenaron que ser fuerte no es no llorar, sino levantarse cada dia con amor.",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "FwP9X",
+                              "name": "c3tag",
+                              "fill": "$accent-primary",
+                              "content": "Las dos",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TXPbU",
+                      "name": "botRow",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "h0IK0",
+                          "name": "c4",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mFE6A",
+                              "name": "c4emoji",
+                              "fill": "$fg-primary",
+                              "content": "🍳",
+                              "fontFamily": "Inter",
+                              "fontSize": 32,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "RXOzo",
+                              "name": "c4title",
+                              "fill": "$fg-primary",
+                              "content": "Su cocina magica",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "UjjyS",
+                              "name": "c4desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Los platos de Maria Caridad tienen ese sabor que ningun restaurante puede igualar. Puro amor en cada receta.",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "INyrU",
+                              "name": "c4tag",
+                              "fill": "$accent-gold",
+                              "content": "Maria Caridad",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QQs6O",
+                          "name": "c5",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "X1MAkm",
+                              "name": "c5emoji",
+                              "fill": "$fg-primary",
+                              "content": "✨",
+                              "fontFamily": "Inter",
+                              "fontSize": 32,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "V3Apx",
+                              "name": "c5title",
+                              "fill": "$fg-primary",
+                              "content": "Su risa contagiosa",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rhyqP",
+                              "name": "c5desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Lesly tiene esa risa que llena cualquier habitacion de alegria y hace que los problemas se sientan pequenos.",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "cSfad",
+                              "name": "c5tag",
+                              "fill": "$accent-warm",
+                              "content": "Lesly",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dr1Zl",
+                          "name": "c6",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BGyHV",
+                              "name": "c6emoji",
+                              "fill": "$fg-primary",
+                              "content": "💕",
+                              "fontFamily": "Inter",
+                              "fontSize": 32,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "DZ7LS",
+                              "name": "c6title",
+                              "fill": "$fg-primary",
+                              "content": "Su amor sin limites",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "JU6Yf",
+                              "name": "c6desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "El amor de una madre y una abuela no se mide, se siente. Y yo lo siento cada dia de mi vida.",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "z25dX8",
+                              "name": "c6tag",
+                              "fill": "$accent-primary",
+                              "content": "Las dos",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jjvjK",
+          "name": "Momentos Que Atesoro",
+          "width": "fill_container",
+          "height": 850,
+          "fill": "$surface-bg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "qcq1t",
+              "x": 120,
+              "y": 75,
+              "name": "mBgGlow",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#EC489912",
+                    "position": 0
+                  },
+                  {
+                    "color": "#A855F708",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#0A0A0F00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1200,
+              "height": 700
+            },
+            {
+              "type": "rectangle",
+              "id": "eMWAu",
+              "x": 50,
+              "y": 180,
+              "name": "mStreak1",
+              "opacity": 0.35,
+              "rotation": 5,
+              "fill": "$accent-warm",
+              "width": 1000,
+              "height": 4,
+              "effect": {
+                "type": "blur",
+                "radius": 40
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "rn1B7",
+              "x": 400,
+              "y": 700,
+              "name": "mStreak2",
+              "opacity": 0.3,
+              "rotation": -7,
+              "fill": "$accent-tertiary",
+              "width": 800,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 35
+              }
+            },
+            {
+              "type": "frame",
+              "id": "w4Ecj",
+              "x": 120,
+              "y": 60,
+              "name": "mContent",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 48,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "I7BW5s",
+                  "name": "mLabel",
+                  "fill": "$accent-tertiary",
+                  "content": "MOMENTOS QUE ATESORO",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "MOSF1",
+                  "name": "mTitle",
+                  "fill": "$fg-primary",
+                  "content": "Cada abrazo cuenta una historia",
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 40,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Kv90y",
+                  "name": "mSub",
+                  "fill": "$fg-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 550,
+                  "content": "Los momentos mas hermosos no se planean, simplemente suceden cuando estamos juntas",
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "fibtX",
+                  "name": "mCards",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Z42uc",
+                      "name": "card1",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 420,
+                      "fill": "$surface-card",
+                      "cornerRadius": "$rounded-lg",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#A855F712",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 40,
+                        "spread": 5
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "f06PCP",
+                          "x": 0,
+                          "y": 0,
+                          "name": "card1img",
+                          "width": 1440,
+                          "height": 420,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1778161100136.png",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "GPFXz",
+                          "x": 0,
+                          "y": 0,
+                          "name": "card1overlay",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 0,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#0A0A0F00",
+                                "position": 0
+                              },
+                              {
+                                "color": "#0A0A0FCC",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "width": 1440,
+                          "height": 420
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hJyuu",
+                          "x": 24,
+                          "y": 300,
+                          "name": "card1text",
+                          "width": 320,
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "prYGi",
+                              "name": "card1phrase",
+                              "fill": "$fg-primary",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Un abrazo tuyo, mama, y el mundo entero desaparece",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "nIXt4",
+                              "name": "card1name",
+                              "fill": "$accent-warm",
+                              "content": "Para Lesly",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 12,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "g9ygcO",
+                      "name": "card2",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 420,
+                      "fill": "$surface-card",
+                      "cornerRadius": "$rounded-lg",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#FBBF2410",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 40,
+                        "spread": 5
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "u4NVqW",
+                          "x": 0,
+                          "y": 0,
+                          "name": "card2img",
+                          "width": 1440,
+                          "height": 420,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1778161108412.png",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "WeG2j",
+                          "x": 0,
+                          "y": 0,
+                          "name": "card2overlay",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 0,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#0A0A0F00",
+                                "position": 0
+                              },
+                              {
+                                "color": "#0A0A0FCC",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "width": 1440,
+                          "height": 420
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RpBFp",
+                          "x": 24,
+                          "y": 300,
+                          "name": "card2text",
+                          "width": 320,
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "n6zPn",
+                              "name": "card2phrase",
+                              "fill": "$fg-primary",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Abuela, tus manos cocinan magia y tu corazon regala paz",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "L8AtmH",
+                              "name": "card2name",
+                              "fill": "$accent-gold",
+                              "content": "Para Maria Caridad",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 12,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GDIRq",
+                      "name": "card3",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 420,
+                      "fill": "$surface-card",
+                      "cornerRadius": "$rounded-lg",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#EC489912",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 40,
+                        "spread": 5
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xi2tC",
+                          "x": 0,
+                          "y": 0,
+                          "name": "card3img",
+                          "width": 1440,
+                          "height": 420,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1778161120675.png",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "AUOms",
+                          "x": 0,
+                          "y": 0,
+                          "name": "card3overlay",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 0,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#0A0A0F00",
+                                "position": 0
+                              },
+                              {
+                                "color": "#0A0A0FCC",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "width": 1440,
+                          "height": 420
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bNKul",
+                          "x": 24,
+                          "y": 300,
+                          "name": "card3text",
+                          "width": 320,
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "X4XKmF",
+                              "name": "card3phrase",
+                              "fill": "$fg-primary",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Juntas somos invencibles, tres generaciones de amor puro",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "urwyZ",
+                              "name": "card3name",
+                              "fill": "$accent-primary",
+                              "content": "Las tres juntas",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 12,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sj66r",
+          "name": "Mis Promesas",
+          "width": "fill_container",
+          "height": 700,
+          "fill": "$surface-bg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "CVVnd",
+              "x": 270,
+              "y": 100,
+              "name": "pBgGlow",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FBBF2410",
+                    "position": 0
+                  },
+                  {
+                    "color": "#A855F708",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#0A0A0F00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 900,
+              "height": 500
+            },
+            {
+              "type": "rectangle",
+              "id": "GO6fw",
+              "x": 300,
+              "y": 120,
+              "name": "pStreak1",
+              "opacity": 0.3,
+              "rotation": 8,
+              "fill": "$accent-gold",
+              "width": 850,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 35
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "iaedU",
+              "x": 100,
+              "y": 580,
+              "name": "pStreak2",
+              "opacity": 0.35,
+              "rotation": -6.000000000000001,
+              "fill": "$accent-secondary",
+              "width": 650,
+              "height": 4,
+              "effect": {
+                "type": "blur",
+                "radius": 38
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Y0Fbu",
+              "x": 120,
+              "y": 60,
+              "name": "pContent",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "p6C2go",
+                  "name": "pLabel",
+                  "fill": "$accent-gold",
+                  "content": "MIS PROMESAS PARA USTEDES",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "UPOeP",
+                  "name": "pTitle",
+                  "fill": "$fg-primary",
+                  "content": "Lo que siempre les prometo",
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 40,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "ZUqat",
+                  "name": "pSub",
+                  "fill": "$fg-muted",
+                  "content": "Porque el amor no solo se dice, se demuestra cada dia",
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "bRInh",
+                  "name": "pGrid",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UPBWK",
+                      "name": "pRow1",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "BqzH0",
+                          "name": "p1",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 28,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kFv9w",
+                              "name": "p1star",
+                              "fill": "$fg-primary",
+                              "content": "🌸",
+                              "fontFamily": "Inter",
+                              "fontSize": 28,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "uBoXp",
+                              "name": "p1title",
+                              "fill": "$fg-primary",
+                              "content": "Siempre estare ahi",
+                              "textAlign": "center",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qAjQ3",
+                              "name": "p1desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "No importa la distancia, no importa la hora. Siempre que me necesiten, ahi estare.",
+                              "lineHeight": 1.7,
+                              "textAlign": "center",
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CLuGL",
+                          "name": "p2",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 28,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "W6V3RR",
+                              "name": "p2star",
+                              "fill": "$fg-primary",
+                              "content": "✨",
+                              "fontFamily": "Inter",
+                              "fontSize": 28,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WBEED",
+                              "name": "p2title",
+                              "fill": "$fg-primary",
+                              "content": "Las hare sentir orgullosas",
+                              "textAlign": "center",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "K4l2T",
+                              "name": "p2desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cada logro mio es de ustedes tambien. Todo lo bueno que haga sera para honrar su sacrificio.",
+                              "lineHeight": 1.7,
+                              "textAlign": "center",
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hFt5e",
+                          "name": "p3",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 28,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "hzapm",
+                              "name": "p3star",
+                              "fill": "$fg-primary",
+                              "content": "🫂",
+                              "fontFamily": "Inter",
+                              "fontSize": 28,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "umqzf",
+                              "name": "p3title",
+                              "fill": "$fg-primary",
+                              "content": "Nunca faltaran abrazos",
+                              "textAlign": "center",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "aLmNh",
+                              "name": "p3desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Porque un abrazo de ustedes cura todo, prometo dar mil abrazos por cada uno que me han dado.",
+                              "lineHeight": 1.7,
+                              "textAlign": "center",
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n2qhJf",
+                      "name": "pRow2",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "HHQiB",
+                          "name": "p4",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 28,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "B1NWB",
+                              "name": "p4star",
+                              "fill": "$fg-primary",
+                              "content": "💛",
+                              "fontFamily": "Inter",
+                              "fontSize": 28,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "X1dT9",
+                              "name": "p4title",
+                              "fill": "$fg-primary",
+                              "content": "Cuidare sus recuerdos",
+                              "textAlign": "center",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "eP5wJ",
+                              "name": "p4desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sus historias, sus recetas, sus tradiciones. Todo lo que me han ensenado vivira en mi para siempre.",
+                              "lineHeight": 1.7,
+                              "textAlign": "center",
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nkguU",
+                          "name": "p5",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 28,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DVTyW",
+                              "name": "p5star",
+                              "fill": "$fg-primary",
+                              "content": "🌷",
+                              "fontFamily": "Inter",
+                              "fontSize": 28,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "cleAc",
+                              "name": "p5title",
+                              "fill": "$fg-primary",
+                              "content": "Les dare flores en vida",
+                              "textAlign": "center",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "L1jfC",
+                              "name": "p5desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "No esperare a una fecha especial. Cada dia les recordare lo importantes que son para mi.",
+                              "lineHeight": 1.7,
+                              "textAlign": "center",
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aNPYw",
+                          "name": "p6",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 28,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YWzy0",
+                              "name": "p6star",
+                              "fill": "$fg-primary",
+                              "content": "♾️",
+                              "fontFamily": "Inter",
+                              "fontSize": 28,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "CZfRC",
+                              "name": "p6title",
+                              "fill": "$fg-primary",
+                              "content": "Las amare infinitamente",
+                              "textAlign": "center",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "M103m",
+                              "name": "p6desc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "En esta vida y en todas las que vengan, mi amor por ustedes no tendra fin. Son mi todo.",
+                              "lineHeight": 1.7,
+                              "textAlign": "center",
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vWcPc",
+                  "name": "pClosingDeco",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "O124w",
+                      "name": "pDecoL",
+                      "fill": "$accent-gold",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "K31Wy",
+                      "name": "pDecoStar",
+                      "opacity": 0.8,
+                      "fill": "$accent-gold",
+                      "content": "✦",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "O4rtr5",
+                      "name": "pDecoR",
+                      "fill": "$accent-gold",
+                      "width": 40,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "mT7cR",
+                  "name": "pClosing",
+                  "fill": "$fg-muted",
+                  "content": "Estas promesas no tienen fecha de vencimiento",
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "D6CVOd",
+          "name": "Muro de Amor - Mensajes",
+          "width": "fill_container",
+          "height": 980,
+          "fill": "$surface-bg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "v3wH39",
+              "x": 220,
+              "y": 120,
+              "name": "gbGlow",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#A855F710",
+                    "position": 0
+                  },
+                  {
+                    "color": "#EC489908",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#0A0A0F00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1000,
+              "height": 600
+            },
+            {
+              "type": "rectangle",
+              "id": "OILzM",
+              "x": 100,
+              "y": 150,
+              "name": "gbStreak1",
+              "opacity": 0.3,
+              "rotation": 6.000000000000001,
+              "fill": "$accent-primary",
+              "width": 950,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 38
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "N9CDos",
+              "x": 450,
+              "y": 700,
+              "name": "gbStreak2",
+              "opacity": 0.35,
+              "rotation": -8,
+              "fill": "$accent-warm",
+              "width": 700,
+              "height": 4,
+              "effect": {
+                "type": "blur",
+                "radius": 35
+              }
+            },
+            {
+              "type": "frame",
+              "id": "A1vbu",
+              "x": 120,
+              "y": 60,
+              "name": "gbContent",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iFbn3",
+                  "name": "gbLabel",
+                  "fill": "$accent-secondary",
+                  "content": "MURO DE AMOR",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "aO2he",
+                  "name": "gbTitle",
+                  "fill": "$fg-primary",
+                  "content": "Deja tu mensaje para ellas",
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 40,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "YBLci",
+                  "name": "gbSub",
+                  "fill": "$fg-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Familiares y amigos pueden escribir palabras bonitas que Lesly y Maria Caridad leeran con todo el amor del mundo",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "xopLG",
+                  "name": "gbCards",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "K55OQg",
+                      "name": "gbRow1",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "I7XI6k",
+                          "name": "msg1",
+                          "width": "fill_container",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#1A1A24FF",
+                                "position": 0
+                              },
+                              {
+                                "color": "#1F1A2EFF",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#A855F720"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fSW1n",
+                              "name": "msg1quote",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "\"Lesly, eres la mejor mama del mundo. Tu sonrisa ilumina cada habitacion y tu amor no tiene limites. Te quiero mucho!\"",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "lvv5C",
+                              "name": "msg1div",
+                              "fill": "$accent-primary",
+                              "width": 40,
+                              "height": 2
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JEkzf",
+                              "name": "msg1author",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "mBa5B",
+                                  "name": "msg1avatar",
+                                  "fill": "$accent-primary",
+                                  "width": 32,
+                                  "height": 32
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "L9T4aS",
+                                  "name": "msg1info",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "FrySP",
+                                      "name": "msg1name",
+                                      "fill": "$fg-primary",
+                                      "content": "Tia Carmen",
+                                      "fontFamily": "$font-body",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "kXOxD",
+                                      "name": "msg1date",
+                                      "fill": "$fg-subtle",
+                                      "content": "Mayo 2026",
+                                      "fontFamily": "$font-caption",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "atAs9",
+                          "name": "msg2",
+                          "width": "fill_container",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#1A1A24FF",
+                                "position": 0
+                              },
+                              {
+                                "color": "#1A2420FF",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#06B6D420"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "x6mHk",
+                              "name": "msg2quote",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "\"Maria Caridad, sus arroz con pollo es lo mejor del universo. Gracias por tantos domingos inolvidables llenos de amor y sabor.\"",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "o17WB3",
+                              "name": "msg2div",
+                              "fill": "$accent-tertiary",
+                              "width": 40,
+                              "height": 2
+                            },
+                            {
+                              "type": "frame",
+                              "id": "J0zJXn",
+                              "name": "msg2author",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "j2pGau",
+                                  "name": "msg2avatar",
+                                  "fill": "$accent-tertiary",
+                                  "width": 32,
+                                  "height": 32
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "yHhlN",
+                                  "name": "msg2info",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "xdZ7k",
+                                      "name": "msg2name",
+                                      "fill": "$fg-primary",
+                                      "content": "Prima Sofia",
+                                      "fontFamily": "$font-body",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "zvcxr",
+                                      "name": "msg2date",
+                                      "fill": "$fg-subtle",
+                                      "content": "Mayo 2026",
+                                      "fontFamily": "$font-caption",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "q2WZdY",
+                          "name": "msg3",
+                          "width": "fill_container",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#1A1A24FF",
+                                "position": 0
+                              },
+                              {
+                                "color": "#241A22FF",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#EC489920"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XlFJu",
+                              "name": "msg3quote",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "\"Para las dos mujeres mas fuertes que conozco: gracias por ser el pilar de esta familia. Las admiro y las amo con toda mi alma.\"",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "F9zdb",
+                              "name": "msg3div",
+                              "fill": "$accent-secondary",
+                              "width": 40,
+                              "height": 2
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dujC8",
+                              "name": "msg3author",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "uyAvE",
+                                  "name": "msg3avatar",
+                                  "fill": "$accent-secondary",
+                                  "width": 32,
+                                  "height": 32
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iTySu",
+                                  "name": "msg3info",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "VIyr6",
+                                      "name": "msg3name",
+                                      "fill": "$fg-primary",
+                                      "content": "Tu hermano Luis",
+                                      "fontFamily": "$font-body",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "olYRL",
+                                      "name": "msg3date",
+                                      "fill": "$fg-subtle",
+                                      "content": "Mayo 2026",
+                                      "fontFamily": "$font-caption",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BKHY7",
+                      "name": "gbRow2",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "BYZ7d",
+                          "name": "msg4",
+                          "width": "fill_container",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#1A1A24FF",
+                                "position": 0
+                              },
+                              {
+                                "color": "#24201AFF",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#FBBF2420"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oBkmW",
+                              "name": "msg4quote",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "\"Mama Lesly y abuela Maria Caridad: ustedes son las estrellas de mi cielo. Cada momento a su lado es un regalo. Feliz dia!\"",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "s5LIVy",
+                              "name": "msg4div",
+                              "fill": "$accent-gold",
+                              "width": 40,
+                              "height": 2
+                            },
+                            {
+                              "type": "frame",
+                              "id": "K3XyQE",
+                              "name": "msg4author",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "X900lj",
+                                  "name": "msg4avatar",
+                                  "fill": "$accent-gold",
+                                  "width": 32,
+                                  "height": 32
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "P7v0T",
+                                  "name": "msg4info",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "eJ9TH",
+                                      "name": "msg4name",
+                                      "fill": "$fg-primary",
+                                      "content": "Vecina Marta",
+                                      "fontFamily": "$font-body",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "nKeLO",
+                                      "name": "msg4date",
+                                      "fill": "$fg-subtle",
+                                      "content": "Mayo 2026",
+                                      "fontFamily": "$font-caption",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DAwYw",
+                          "name": "writeCard",
+                          "width": "fill_container",
+                          "fill": "$surface-bg",
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$accent-primary"
+                          },
+                          "layout": "vertical",
+                          "gap": 20,
+                          "padding": 28,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vkn9y",
+                              "name": "writeIcon",
+                              "fill": "$fg-primary",
+                              "content": "💌",
+                              "fontFamily": "Inter",
+                              "fontSize": 36,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "vtN2r",
+                              "name": "writeTitle",
+                              "fill": "$fg-primary",
+                              "content": "Escribe tu mensaje",
+                              "textAlign": "center",
+                              "fontFamily": "$font-heading",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "DQQKJ",
+                              "name": "writeDesc",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": 280,
+                              "content": "Deja unas palabras bonitas para Lesly y Maria Caridad",
+                              "lineHeight": 1.5,
+                              "textAlign": "center",
+                              "fontFamily": "$font-body",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DWhjm",
+                              "name": "writeInput",
+                              "width": "fill_container",
+                              "height": 80,
+                              "fill": "$surface-card",
+                              "cornerRadius": "$rounded-sm",
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "$border-subtle"
+                              },
+                              "layout": "vertical",
+                              "padding": [
+                                12,
+                                16
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "e74qKx",
+                                  "name": "writePlaceholder",
+                                  "fill": "$fg-subtle",
+                                  "content": "Escribe aqui tu mensaje...",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal",
+                                  "fontStyle": "italic"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "lcuPn",
+                              "name": "writeNameRow",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "OGbZS",
+                                  "name": "writeNameField",
+                                  "width": "fill_container",
+                                  "height": 40,
+                                  "fill": "$surface-card",
+                                  "cornerRadius": "$rounded-sm",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "$border-subtle"
+                                  },
+                                  "layout": "vertical",
+                                  "padding": [
+                                    10,
+                                    16
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "yguy2",
+                                      "name": "writeNamePlaceholder",
+                                      "fill": "$fg-subtle",
+                                      "content": "Tu nombre",
+                                      "fontFamily": "$font-body",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "OxOK4",
+                                  "name": "writeBtn",
+                                  "height": 40,
+                                  "fill": "$accent-primary",
+                                  "cornerRadius": "$rounded-sm",
+                                  "padding": [
+                                    0,
+                                    24
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "uG8ZQ",
+                                      "name": "writeBtnText",
+                                      "fill": "#FFFFFFFF",
+                                      "content": "Enviar",
+                                      "fontFamily": "$font-body",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "N6Sosa",
+                          "name": "msg5",
+                          "width": "fill_container",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#1A1A24FF",
+                                "position": 0
+                              },
+                              {
+                                "color": "#1A2024FF",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": "$rounded-lg",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#06B6D420"
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 28,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SlzKY",
+                              "name": "msg5quote",
+                              "fill": "$fg-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "\"Feliz dia a las reinas de la familia. Que Dios las bendiga siempre y les de mucha salud para seguir llenando nuestras vidas de amor.\"",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal",
+                              "fontStyle": "italic"
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "Rg51k",
+                              "name": "msg5div",
+                              "fill": "$accent-tertiary",
+                              "width": 40,
+                              "height": 2
+                            },
+                            {
+                              "type": "frame",
+                              "id": "J8Sev",
+                              "name": "msg5author",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "P6uRCb",
+                                  "name": "msg5avatar",
+                                  "fill": "$accent-tertiary",
+                                  "width": 32,
+                                  "height": 32
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "o4aQ6z",
+                                  "name": "msg5info",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "S76RLN",
+                                      "name": "msg5name",
+                                      "fill": "$fg-primary",
+                                      "content": "Compadre Jorge",
+                                      "fontFamily": "$font-body",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Nuaby",
+                                      "name": "msg5date",
+                                      "fill": "$fg-subtle",
+                                      "content": "Mayo 2026",
+                                      "fontFamily": "$font-caption",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ncVDN",
+                  "name": "gbNote",
+                  "fill": "$fg-subtle",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Los mensajes se guardaran automaticamente para que Lesly y Maria Caridad puedan leerlos siempre",
+                  "textAlign": "center",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CctUu",
+          "name": "Galeria de Recuerdos",
+          "clip": true,
+          "width": "fill_container",
+          "height": 650,
+          "fill": "$surface-bg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "VVQRu",
+              "x": 370,
+              "y": -50,
+              "name": "glow",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#A855F720",
+                    "position": 0
+                  },
+                  {
+                    "color": "#A855F700",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 700,
+              "height": 300,
+              "effect": {
+                "type": "blur",
+                "radius": 60
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "Y0MR1U",
+              "x": 300,
+              "y": 200,
+              "name": "warmGlow",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FBBF2410",
+                    "position": 0
+                  },
+                  {
+                    "color": "#F472B60A",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#00000000",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 840,
+              "height": 400,
+              "effect": {
+                "type": "blur",
+                "radius": 80
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "ifupK",
+              "x": -100,
+              "y": 260,
+              "name": "s1",
+              "opacity": 0.4,
+              "rotation": -7,
+              "fill": "#A855F7",
+              "width": 750,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 40
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "mrcJt",
+              "x": 450,
+              "y": 400,
+              "name": "s2",
+              "opacity": 0.45,
+              "rotation": 5,
+              "fill": "#EC4899",
+              "width": 1100,
+              "height": 4,
+              "effect": {
+                "type": "blur",
+                "radius": 45
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "jkAtH",
+              "x": 150,
+              "y": 530,
+              "name": "s3",
+              "opacity": 0.35,
+              "rotation": -10,
+              "fill": "#06B6D4",
+              "width": 650,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 35
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Tj4nW",
+              "x": 0,
+              "y": 40,
+              "name": "hdr",
+              "width": 1440,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l7cyOz",
+                  "name": "ttl",
+                  "fill": "$fg-primary",
+                  "content": "Galería de Recuerdos",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 52,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "cDVJM",
+                  "name": "sub",
+                  "fill": "$fg-muted",
+                  "content": "Los mejores momentos viven para siempre",
+                  "fontFamily": "$font-body",
+                  "fontSize": 18,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "Szu6p",
+                  "name": "accentLine",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 0,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "$accent-warm",
+                        "position": 0
+                      },
+                      {
+                        "color": "$accent-gold",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "width": 60,
+                  "height": 3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LPMdK",
+              "x": -100,
+              "y": 185,
+              "name": "car",
+              "gap": 36,
+              "padding": [
+                20,
+                50
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "N2TmW",
+                  "name": "c1",
+                  "rotation": -3.0000000000000004,
+                  "width": 230,
+                  "height": 310,
+                  "fill": "#FAFAFAFF",
+                  "cornerRadius": "$rounded-sm",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000050",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AgDAS",
+                      "name": "i1",
+                      "width": "fill_container",
+                      "height": 216,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778161659095.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "e38w86",
+                      "name": "t1",
+                      "fill": "#52525BFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Navidad 2023",
+                      "textAlign": "center",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CVQ8b",
+                  "name": "c2",
+                  "rotation": 2,
+                  "width": 230,
+                  "height": 310,
+                  "fill": "#FAFAFAFF",
+                  "cornerRadius": "$rounded-sm",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000050",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "O5esYg",
+                      "name": "i2",
+                      "width": "fill_container",
+                      "height": 216,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778161645080.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "RBNZG",
+                      "name": "t2",
+                      "fill": "#52525BFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Verano en la playa",
+                      "textAlign": "center",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "r4GElv",
+                  "name": "c3",
+                  "rotation": -1,
+                  "width": 230,
+                  "height": 310,
+                  "fill": "#FAFAFAFF",
+                  "cornerRadius": "$rounded-sm",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000050",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PitPk",
+                      "name": "i3",
+                      "width": "fill_container",
+                      "height": 216,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778161654009.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "nMHFC",
+                      "name": "t3",
+                      "fill": "#52525BFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cuentos de abuela",
+                      "textAlign": "center",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t6Iw1T",
+                  "name": "c4",
+                  "rotation": 4,
+                  "width": 230,
+                  "height": 310,
+                  "fill": "#FAFAFAFF",
+                  "cornerRadius": "$rounded-sm",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000050",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GpmGU",
+                      "name": "i4",
+                      "width": "fill_container",
+                      "height": 216,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778161668053.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "f0Uxx",
+                      "name": "t4",
+                      "fill": "#52525BFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Domingos en familia",
+                      "textAlign": "center",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l0415I",
+                  "name": "c5",
+                  "rotation": -2,
+                  "width": 230,
+                  "height": 310,
+                  "fill": "#FAFAFAFF",
+                  "cornerRadius": "$rounded-sm",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000050",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PORtv",
+                      "name": "i5",
+                      "width": "fill_container",
+                      "height": 216,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778161673719.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "egfZG",
+                      "name": "t5",
+                      "fill": "#52525BFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Mi primer día",
+                      "textAlign": "center",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "K5xsaR",
+                  "name": "c6",
+                  "rotation": 3.0000000000000004,
+                  "width": 230,
+                  "height": 310,
+                  "fill": "#FAFAFAFF",
+                  "cornerRadius": "$rounded-sm",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000050",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qA2pb",
+                      "name": "i6",
+                      "width": "fill_container",
+                      "height": 216,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778161670729.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "UGiCz",
+                      "name": "t6",
+                      "fill": "#52525BFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tres generaciones",
+                      "textAlign": "center",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eENXo",
+          "name": "Carta de Amor",
+          "width": "fill_container",
+          "height": 700,
+          "fill": "$surface-bg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "pm8j1",
+              "x": 220,
+              "y": 25,
+              "name": "loveBgGlow",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#EC489915",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FBBF2408",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#0A0A0F00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1000,
+              "height": 500
+            },
+            {
+              "type": "rectangle",
+              "id": "OfMMQ",
+              "x": 100,
+              "y": 80,
+              "name": "loveStreak1",
+              "opacity": 0.3,
+              "rotation": 5,
+              "fill": "$accent-warm",
+              "width": 1000,
+              "height": 3,
+              "effect": {
+                "type": "blur",
+                "radius": 38
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "bUC6K",
+              "x": 400,
+              "y": 430,
+              "name": "loveStreak2",
+              "opacity": 0.35,
+              "rotation": -7,
+              "fill": "$accent-gold",
+              "width": 700,
+              "height": 4,
+              "effect": {
+                "type": "blur",
+                "radius": 35
+              }
+            },
+            {
+              "type": "frame",
+              "id": "P3Srk",
+              "x": 320,
+              "y": 50,
+              "name": "loveContent",
+              "width": 800,
+              "layout": "vertical",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RicMz",
+                  "name": "loveQuote",
+                  "fill": "$accent-warm",
+                  "content": "❤",
+                  "fontFamily": "Inter",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "u8LvCq",
+                  "name": "loveLabel",
+                  "fill": "$accent-gold",
+                  "content": "UNA CARTA PARA USTEDES",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "pxOcW",
+                  "name": "loveTitle",
+                  "fill": "$fg-primary",
+                  "content": "Queridas mama y abuela,",
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 36,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Lz6eZ",
+                  "name": "loveParagraph",
+                  "fill": "$fg-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 650,
+                  "content": "No existen palabras suficientes para agradecer todo lo que han hecho por mi. Cada sacrificio, cada desvelo, cada oracion en silencio... todo eso me ha convertido en quien soy hoy.\n\nMama, tu eres mi primer amor y mi mejor amiga. Abuela, tu eres mi historia y mi raiz. Las dos son mi hogar, sin importar donde este.\n\nEste dia no es suficiente para celebrarlas, pero quiero que sepan que cada dia de mi vida es un dia de las madres, porque cada dia agradezco tenerlas.",
+                  "lineHeight": 1.8,
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "ArjzN",
+                  "name": "loveDivider",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "vTnR3",
+                      "name": "loveDivL",
+                      "fill": "$accent-warm",
+                      "width": 60,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "nEOOU",
+                      "name": "loveHeart",
+                      "fill": "$accent-warm",
+                      "content": "♥",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "ClrmZ",
+                      "name": "loveDivR",
+                      "fill": "$accent-warm",
+                      "width": 60,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "A4hDNX",
+                  "name": "loveSign",
+                  "fill": "$fg-primary",
+                  "content": "Con todo mi amor, para siempre",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 22,
+                  "fontWeight": "500",
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QhxgJ",
+          "name": "Cierre",
+          "width": "fill_container",
+          "fill": "$surface-bg",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            60,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "e5j7C",
+              "name": "footerLine",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0A0A0F00",
+                    "position": 0
+                  },
+                  {
+                    "color": "#A855F740",
+                    "position": 0.3
+                  },
+                  {
+                    "color": "#EC489940",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#FBBF2440",
+                    "position": 0.7
+                  },
+                  {
+                    "color": "#0A0A0F00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "htcBw",
+              "name": "footerDecoRow",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HlH4K",
+                  "name": "footerS1",
+                  "opacity": 0.6,
+                  "fill": "$accent-primary",
+                  "content": "✦",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "dqOYA",
+                  "name": "footerS2",
+                  "opacity": 0.8,
+                  "fill": "$accent-warm",
+                  "content": "✦",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "BVZlh",
+                  "name": "footerS3",
+                  "opacity": 0.6,
+                  "fill": "$accent-gold",
+                  "content": "✦",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Sz35A",
+              "name": "footerMsg",
+              "fill": "$fg-muted",
+              "content": "Hecho con mucho amor para las mujeres mas increibles del mundo",
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "kBTOe",
+              "name": "footerNames",
+              "fill": "$fg-primary",
+              "content": "Lesly & Maria Caridad",
+              "fontFamily": "$font-heading",
+              "fontSize": 28,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "WYejT",
+              "name": "footerDate",
+              "fill": "$fg-subtle",
+              "content": "Dia de las Madres · Mayo 2026",
+              "fontFamily": "$font-caption",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "ni6od",
+              "name": "footerHeart",
+              "opacity": 0.7,
+              "fill": "$accent-warm",
+              "content": "♥",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-primary": {
+      "type": "color",
+      "value": "#A855F7FF"
+    },
+    "accent-secondary": {
+      "type": "color",
+      "value": "#EC4899FF"
+    },
+    "accent-tertiary": {
+      "type": "color",
+      "value": "#06B6D4FF"
+    },
+    "border-accent": {
+      "type": "color",
+      "value": "#A855F733"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#27272AFF"
+    },
+    "fg-muted": {
+      "type": "color",
+      "value": "#A1A1AAFF"
+    },
+    "fg-primary": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    },
+    "fg-subtle": {
+      "type": "color",
+      "value": "#71717AFF"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-caption": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Funnel Sans"
+    },
+    "rounded-lg": {
+      "type": "number",
+      "value": 8
+    },
+    "rounded-sm": {
+      "type": "number",
+      "value": 4
+    },
+    "surface-bg": {
+      "type": "color",
+      "value": "#0A0A0FFF"
+    },
+    "surface-card": {
+      "type": "color",
+      "value": "#13131AFF"
+    },
+    "surface-card-hover": {
+      "type": "color",
+      "value": "#1A1A24FF"
+    },
+    "accent-gold": {
+      "type": "color",
+      "value": "#FBBF24FF"
+    },
+    "accent-warm": {
+      "type": "color",
+      "value": "#F472B6FF"
+    },
+    "surface-elevated": {
+      "type": "color",
+      "value": "#1A1A24FF"
+    }
+  }
+}
