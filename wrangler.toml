@@ -1,0 +1,10 @@
+name = "mothers-day"
+compatibility_date = "2026-05-01"
+pages_build_output_dir = "."
+
+# Pega aqui el database_id que te de el comando:
+#   npx wrangler d1 create mothers-day-db
+[[d1_databases]]
+binding = "DB"
+database_name = "mothers-day-db"
+database_id = "YOUR_D1_DATABASE_ID"

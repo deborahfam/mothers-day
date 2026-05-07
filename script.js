@@ -37,8 +37,10 @@ if (track) {
   track.addEventListener('mouseleave', () => { track.style.animationPlayState = 'running'; });
 }
 
-// Guestbook — localStorage (ready for Supabase integration)
-const STORAGE_KEY = 'mothers-day-messages';
+// Guestbook — Cloudflare Pages Functions + D1 (SQLite)
+// El backend vive en /functions/api/messages.js, mismo origen que el sitio
+const API_BASE = '/api';
+
 const accentColors = [
   { bg: 'msg-purple', color: 'var(--accent-primary)' },
   { bg: 'msg-cyan', color: 'var(--accent-tertiary)' },
@@ -46,14 +48,20 @@ const accentColors = [
   { bg: 'msg-gold', color: 'var(--accent-gold)' },
 ];
 
-function loadMessages() {
-  const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+async function loadMessages() {
   const grid = document.getElementById('messagesGrid');
   const writeCard = document.getElementById('writeCard');
-  saved.forEach(msg => {
-    const card = createMessageCard(msg);
-    grid.insertBefore(card, writeCard);
-  });
+  try {
+    const res = await fetch(`${API_BASE}/messages`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const messages = await res.json();
+    messages.forEach(msg => {
+      const card = createMessageCard(msg);
+      grid.insertBefore(card, writeCard);
+    });
+  } catch (err) {
+    console.error('Error cargando mensajes:', err);
+  }
 }
 
 function createMessageCard(msg) {
@@ -78,9 +86,10 @@ function createMessageCard(msg) {
   return card;
 }
 
-function sendMessage() {
+async function sendMessage() {
   const msgInput = document.getElementById('msgInput');
   const nameInput = document.getElementById('nameInput');
+  const sendBtn = document.getElementById('sendBtn');
   const text = msgInput.value.trim();
   const name = nameInput.value.trim() || 'Anonimo';
 
@@ -92,15 +101,36 @@ function sendMessage() {
 
   const now = new Date();
   const months = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-  const msg = { text, name, date: `${months[now.getMonth()]} ${now.getFullYear()}` };
+  const date = `${months[now.getMonth()]} ${now.getFullYear()}`;
 
-  const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-  saved.push(msg);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+  const originalLabel = sendBtn.textContent;
+  sendBtn.disabled = true;
+  sendBtn.textContent = 'Enviando...';
+
+  let saved;
+  try {
+    const res = await fetch(`${API_BASE}/messages`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text, name, date })
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    saved = await res.json();
+  } catch (err) {
+    console.error('Error enviando mensaje:', err);
+    msgInput.style.borderColor = 'var(--accent-secondary)';
+    setTimeout(() => { msgInput.style.borderColor = ''; }, 1500);
+    sendBtn.disabled = false;
+    sendBtn.textContent = originalLabel;
+    return;
+  }
+
+  sendBtn.disabled = false;
+  sendBtn.textContent = originalLabel;
 
   const grid = document.getElementById('messagesGrid');
   const writeCard = document.getElementById('writeCard');
-  const card = createMessageCard(msg);
+  const card = createMessageCard(saved);
   grid.insertBefore(card, writeCard);
 
   msgInput.value = '';
@@ -115,10 +145,8 @@ function escapeHtml(str) {
 
 // Parallax on neon streaks
 window.addEventListener('scroll', () => {
-  const scrollY = window.scrollY;
   document.querySelectorAll('.neon-streak').forEach((streak, i) => {
     const speed = 0.02 + (i % 4) * 0.01;
-    streak.style.transform += '';
     const section = streak.closest('section') || streak.closest('footer');
     if (section) {
       const rect = section.getBoundingClientRect();
