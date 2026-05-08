@@ -50,6 +50,11 @@ const STATIC_MESSAGES = [
     text: 'Mima, Aya, quiero darles mis más sinceras felicidades llenas de amor por este día tan especial. El día de las madres es uno de los momentos del año en los cuales más felices estoy, ya que puedo mostrar mi amor por aquella que me dio vida, y me cuidó hasta este momento. Estaré esperando el próximo para mostrar incluso más amor. Gracias, mamá. Gracias, abuela.',
     name: 'Faby',
     date: 'Mayo 2026'
+  },
+  {
+    text: 'Para aya y tía saben q las amo con mi vida y aunque saben que estoy siempre haciendo algo porque el peque me roba mucho tiempo, estoy al tanto siempre y no solo por ser el día de las madres hay q agradecer las grandes madres , tía y abuela q son un inmenso beso lleno de amor y que disfruten este día como se lo merecen las amamos !!!!',
+    name: 'Jeny',
+    date: 'Mayo 2026'
   }
 ];
 
