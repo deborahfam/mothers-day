@@ -55,7 +55,12 @@ const STATIC_MESSAGES = [
     text: 'Para aya y tía saben q las amo con mi vida y aunque saben que estoy siempre haciendo algo porque el peque me roba mucho tiempo, estoy al tanto siempre y no solo por ser el día de las madres hay q agradecer las grandes madres , tía y abuela q son un inmenso beso lleno de amor y que disfruten este día como se lo merecen las amamos !!!!',
     name: 'Jeny',
     date: 'Mayo 2026'
-  }
+  },
+  {
+    text: 'Para dos mujeres muy especiales, que me han dado mucho amor y apoyo en mi vida, que me han dado la oportunidad de ser parte de su familia, que disfruten este día como se lo merecen las amamos !!!!',
+    name: 'Gaby',
+    date: 'Mayo 2026'
+  },
 ];
 
 const accentColors = [
