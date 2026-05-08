@@ -61,6 +61,11 @@ const STATIC_MESSAGES = [
     name: 'Gaby',
     date: 'Mayo 2026'
   },
+  {
+    text: 'En el tiempo que te tuve de mamá fue impresionante ver la valentía y el amor inmenso que siempre has demostrado por tus hijos, la resiliencia que siempre tienes, y tú lo has hecho con una fuerza admirable, enfrentando cada reto con coraje y cada momento con ternura. Feliz día de las madres.',
+    name: 'Adrian',
+    date: 'Mayo 2026'
+  },
 ];
 
 const accentColors = [
