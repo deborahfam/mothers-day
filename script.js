@@ -76,6 +76,11 @@ const STATIC_MESSAGES = [
     name: 'Yuleidy y Rene',
     date: 'Mayo 2026'
   },
+  {
+    text: 'Feliz día de las madres, gracias a ustedes nuestra familia ha crecido con más amor, bondad, música, arte y muy buen humor!!!.',
+    name: 'Ivania, René y Merci',
+    date: 'Mayo 2026'
+  },
 ];
 
 const accentColors = [
