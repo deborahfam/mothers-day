@@ -66,6 +66,16 @@ const STATIC_MESSAGES = [
     name: 'Adrian',
     date: 'Mayo 2026'
   },
+    {
+    text: 'Feliz dia de las madres tía, ser madre es una benicion y tu lo haces con todo el corazón. Aya además de una mamá eres una abuela maravillosa. Las quiero mucho.',
+    name: 'Yaine',
+    date: 'Mayo 2026'
+  },
+    {
+    text: 'Muchísimas felicidades en este lindo día, para dos madres especiales, que Dios las bendiga siempre, las queremos muchísimo!!!.',
+    name: 'Yuleidy y Rene',
+    date: 'Mayo 2026'
+  },
 ];
 
 const accentColors = [
